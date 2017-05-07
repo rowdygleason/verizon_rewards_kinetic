@@ -1,0 +1,826 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Kinetic</title>
+<style type="text/css">
+html {
+	box-sizing: border-box;
+	-webkit-transform: translateZ(0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+body {
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+from {
+padding:0;
+}
+to {
+	padding: 0;
+}
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass * {
+	line-height: 100%;
+}
+/* !!!DO NOT CHANGE!!! */
+@media only screen and (-webkit-min-device-pixel-ratio: 1), only screen and (-moz-images-in-menus:0) {
+*[id]#hs_02:hover~#cs_02, *[id]#cs_02:hover {
+	left: 0px;
+}
+*[id]#hs_02:hover~#inner_box, *[id]#cs_02:hover~#inner_box {
+	left: -636px;
+}
+*[id]#hs_03:hover~#cs_03, *[id]#cs_03:hover {
+	left: 0px;
+}
+*[id]#hs_03:hover~#inner_box, *[id]#cs_03:hover~#inner_box {
+	left: -1272px;
+}
+*[id]#hs_04:hover~#cs_04, *[id]#cs_04:hover {
+	left: 0px;
+}
+*[id]#hs_04:hover~#inner_box, *[id]#cs_04:hover~#inner_box {
+	left: -1908px;
+}
+*[id]#hs_05:hover~#cs_05, *[id]#cs_05:hover {
+	left: 0px;
+}
+*[id]#hs_05:hover~#inner_box, *[id]#cs_05:hover~#inner_box {
+	left: -2544px;
+}
+[id^="cs_"] {
+width:636px;
+height:370px;
+z-index:950;
+position:absolute;
+left:636px;
+bottom:0px;
+}
+[id^="cs_"] * {
+	opacity: 0;
+}
+*[id]#cs_01 a, *[id]#cs_02 a, *[id]#cs_03 a, *[id]#cs_04 a, *[id]#cs_05 a { width: 636px; height: 370px; position:absolute; bottom:0 ; left:0;}
+
+*[id]#slide_01 {
+	left: 0px;
+}
+*[id]#slide_02 {
+	left: 636px;
+}
+*[id]#slide_03 {
+	left: 1272px;
+}
+*[id]#slide_04 {
+	left: 1908px;
+}
+*[id]#slide_05 {
+	left: 2544px;
+}
+*[id]#slide_cont {
+	position: relative;
+	overflow: hidden;
+}
+*[class].show_d {display: block !important; width: auto !important; overflow: visible !important; float: none !important; max-height: inherit !important; line-height: inherit !important;}
+*[id]#inner_box {
+	position: absolute;
+	left: 0;
+	width: 3180px;
+	height: 444px;
+	-webkit-transition: 0.3s ease-out left;
+	transition: 0.3s ease-out left;
+}
+[id^="slide"] {
+width:636px;
+height:444px;
+}
+[id^="slide_0"] {
+position:absolute;
+top:0px;
+}
+[id^="hs_"] {
+position:absolute;
+z-index:999;
+display:inline-block;
+}
+[id^="hs_"] img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	background: none;
+}
+[id^="cs_"] a span {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-image: url('images/sp.gif');
+}
+[class^="cta_"] {
+position:absolute;
+display:inline-block;
+z-index:2;
+text-decoration:none;
+}
+[id^="hs_"]:hover~#cs_01 {
+	left: 636px;
+}
+*[id]#cs_01 {
+	left: 0px;
+}
+#cont {
+	width: 636px;
+	position: relative;
+}
+#footer {
+
+}
+*[class].h {
+	display: none;
+}
+}
+@media only screen and (max-width: 636px) and (-webkit-min-device-pixel-ratio: 1), only screen and (max-width: 636px) and (-moz-images-in-menus:0) {
+*[id]#hs_02:hover~#cs_02, *[id]#cs_02:hover {
+	left: 0px;
+}
+*[id]#hs_02:hover~#inner_box, *[id]#cs_02:hover~#inner_box {
+	left: -318px;
+}
+*[id]#hs_03:hover~#cs_03, *[id]#cs_03:hover {
+	left: 0px;
+}
+*[id]#hs_03:hover~#inner_box, *[id]#cs_03:hover~#inner_box {
+	left: -636px;
+}
+*[id]#hs_04:hover~#cs_04, *[id]#cs_04:hover {
+	left: 0px;
+}
+*[id]#hs_04:hover~#inner_box, *[id]#cs_04:hover~#inner_box {
+	left: -954px;
+}
+*[id]#hs_05:hover~#cs_05, *[id]#cs_05:hover {
+	left: 0px;
+}
+*[id]#hs_05:hover~#inner_box, *[id]#cs_05:hover~#inner_box {
+	left: -1272px;
+}
+[id^="cs_"] {
+left:318px;
+}
+*[id]#cs_01 a, *[id]#cs_02 a, *[id]#cs_03 a, *[id]#cs_04 a, *[id]#cs_05 a { width: 318px; height: 581px; position:absolute; bottom:0; left:0;}
+
+#cont {
+	width: 318px;
+}
+#footer {
+}
+*[id]#slide_01 {
+	left: 0px;
+}
+*[id]#slide_02 {
+	left: 318px;
+}
+*[id]#slide_03 {
+	left: 636px;
+}
+*[id]#slide_04 {
+	left: 954px;
+}
+*[id]#slide_05 {
+	left: 1272px;
+}
+*[id]#inner_box {
+	position: absolute;
+	left: 0;
+	width: 1590px;
+	height: 636px;
+}
+[id^="slide"], [id^="cs_"] {
+width:318px;
+height:636px;
+}
+*[class].m_h {
+	display: none !important;
+}
+*[class].m_s {
+	display: block !important;
+}
+}
+@media screen and (min-width:0\0) {
+.slide_cont {
+display:none;
+visibility:hidden;
+}
+}
+@media \0screen\,screen\9 {
+.slide_cont {
+	display: none;
+	visibility: hidden;
+}
+}
+/* !!!DO NOT CHANGE!!! */
+
+/* !!!EDIT THESE!!! */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1), only screen and (-moz-images-in-menus:0) {
+/* SLIDE BACKGROUND IMAGES */
+  [id^="slide_0"] {
+  background-color: #e4e5e3;
+}
+  /* SLIDE 1 */*[id]#slide_01 {
+	background-image: url('images/bg_slide_1.png');
+}
+/* SLIDE 2 */*[id]#slide_02 {
+	background-image: url('images/bg_slide_2.png');
+}
+/* SLIDE 3 */*[id]#slide_03 {
+	background-image: url('images/bg_slide_3.png');
+}
+/* SLIDE 4 */*[id]#slide_04 {
+	background-image: url('images/bg_slide_4.png');
+}
+/* SLIDE 5 */*[id]#slide_05 {
+	background-image: url('images/bg_slide_5.png');
+}
+  /* SLIDE CTA(S) */    
+  [class^="cta_"] {
+  background-color:#cd040b;
+  color:#ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  letter-spacing: .02em;
+  line-height:40px; /* HEIGHT OF BUTTON */
+  padding: 0 10px 0 20px;
+  text-align:center;
+  font-weight:bold;
+  left: 28px;
+  margin-top:20px;
+}
+/* BUTTON POSITIONING */*[class].cta_01 img {
+    margin:13px 10px 0 13px;
+    float:right;
+  }
+/* SLIDE 1 BUTTON(S) */*[id]#slide_01 .cta_01:before {
+	content: "Discover today's deals";
+}
+/* SLIDE 2 BUTTON(S) */*[id]#slide_02 .cta_01:before  {
+	content: "Start shopping";
+}
+/* SLIDE 3 BUTTON(S) */*[id]#slide_03 .cta_01:before  {
+	content: "Browse sweepstakes";
+}
+/* SLIDE 4 BUTTON(S) */*[id]#slide_04 .cta_01:before  {
+	content: "Explore local deals";
+}
+/* SLIDE 5 BUTTON(S) */*[id]#slide_05 .cta_01:before  {
+	content: "Shop gift cards";
+}
+
+/* NAV BUTTON */
+  /* NAV BUTTON SIZES AND FONT STYLES */
+  [id^="hs_"] {
+  width:126px;
+  height:74px;
+  line-height:68px;
+  background-color:#333333;
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:126px 90px;
+}
+/* NAV BUTTON POSITION AND TEXT CONTENT */
+  /* NAV 1 */*[id]#hs_01 {
+	left: 0px;
+  background-image: url('images/nav_1_d.png');
+}
+*[id]#hs_01:hover {
+  background-color:#82ceac;
+  height:90px;
+  }
+*[id]#hs_01:after {
+}
+/* NAV 2 */*[id]#hs_02 {
+	left: 127px;
+  width:127px;
+  background-size:127px 90px;
+  background-image: url('images/nav_2_d.png');
+}
+*[id]#hs_02:hover {
+  background-color:#f9b295;
+  height:90px;
+  }
+/* NAV 3 */*[id]#hs_03 {
+	left: 255px;
+  background-image: url('images/nav_3_d.png');
+}
+*[id]#hs_03:hover {
+  background-color:#fbd362;
+  height:90px;
+  }
+/* NAV 4 */*[id]#hs_04 {
+	left: 382px;
+  width:127px;
+  background-size:127px 90px;
+  background-image: url('images/nav_4_d.png');
+}
+*[id]#hs_04:hover {
+  background-color:#abe0f9;
+  height:90px;
+  }
+/* NAV 5 */*[id]#hs_05 {
+	left: 510px;
+  background-image: url('images/nav_5_d.png');
+}
+*[id]#hs_05:hover {
+  background-color:#f9b295;
+  height:90px;
+  }
+/* TEXT BOXES */
+*[class].txt_box {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: normal;
+	width: 320px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px 0px 0px 26px;
+	text-align: left;
+}
+*[class].title {
+  font-size:30px;
+  line-height:32px;
+  font-weight:bold;
+  color:#cd040b;
+}
+*[class].header {
+  font-size:16px;
+  line-height:18px;
+  font-weight:bold;
+}
+*[class].body {
+  font-size:13px !important;
+  line-height:17px;
+}
+/* SLIDE 1 TEXT */
+/* 1 title */ 
+*[id]#slide_01 .title {
+  font-size:36px;
+  line-height:38px;
+  padding-top:140px;
+}
+*[id]#slide_01 .title:after {
+	content: "Where will your points take you?";
+}
+/* 1 body */
+*[id]#slide_01 .body {
+  padding:15px 45px 0px 3px;
+  
+}
+*[id]#slide_01 .body:after {
+  content: "You earn points for doing simple things, like signing in to My Verizon and using paperless billing. Don't let them collect dust—use them to collect rewards.";
+}
+/* SLIDE 2 TEXT*/
+/* 2 title */
+*[id]#slide_02 .title {
+  padding:117px 0 0 0;
+}
+*[id]#slide_02 .title:after {
+  content: "Brands you love";
+}
+/* 2 header */
+*[id]#slide_02 .header {
+  padding-top:16px;
+}
+*[id]#slide_02 .header:after {
+  content: "With fast, free shipping every day.*";
+}
+/* 2 body */
+*[id]#slide_02 .body {
+  padding:17px 0 0 0;
+}
+*[id]#slide_02 .body:after {
+  content: "Our low price guarantee means you get the best deal on 250+ designer and name brands.";
+}
+/* 2 list */
+*[id]#slide_02 .list {
+  margin: 17px 0px 17px 0;
+}
+*[id]#slide_02 .bull {
+  width:50px;
+  padding:2px 0 0 0;
+  float:left;
+}
+*[id]#slide_02 .list img {
+  margin:0 0 0 10px;
+}
+*[id]#slide_02 .list_2 .item {
+  padding:0 30px 0 0;
+}
+*[id]#slide_02 .list_2 img {
+  margin:0 0 0 5px;
+}
+*[id]#slide_02 .list .item:after {
+  content:"Save up to 40% on fashion, tech accessories, housewares and more.";
+}
+*[id]#slide_02 .list_2 .item:after {
+  content:"Shop top brands like Sony, Nike, GoPro, kate spade and Ray-Ban.";
+}
+/* SLIDE 3 TEXT*/
+/* 3 title */
+*[id]#slide_03 .title {
+  padding:118px 0 0 0;
+}
+*[id]#slide_03 .title:after {
+  content: "Daily sweepstakes";
+}
+/* 3 header */
+*[id]#slide_03 .header {
+  padding:22px 0 0 0;
+}
+*[id]#slide_03 .header:after {
+  content: "Winners every single day.";
+}
+/* 3 body */
+*[id]#slide_03 .body {
+  padding:18px 0 0 0;
+}
+*[id]#slide_03 .body:after {
+  content: "From gift cards to getaways, sports tickets to smartwatches, there's always an exciting new prize to discover.";
+}
+/* SLIDE 4 TEXT*/
+/* 4 title */
+*[id]#slide_04 .title {
+  padding:117px 0 0 0;
+}
+*[id]#slide_04 .title:after {
+  content: "Local deals";
+}
+/* 4 body */
+*[id]#slide_04 .body {
+  padding:17px 0 0 0;
+}
+*[id]#slide_04 .body:after {
+  content: "Treat yourself at home or when you travel with savings on dining, entertainment and shopping.";
+}
+/* 4 list */
+*[id]#slide_04 .list {
+  margin: 17px 0px 17px 0;
+}
+*[id]#slide_04 .bull {
+  width:50px;
+  float:left;
+}
+*[id]#slide_04 .list .item {
+  padding:0 45px 0 0;
+}
+*[id]#slide_04 .list img {
+  margin-left:1px;
+}
+*[id]#slide_04 .list_2  {
+  margin:0 0 10px 0;
+}
+*[id]#slide_04 .list_2 .item {
+  padding:0 30px 0 0;
+}
+*[id]#slide_04 .list_2 img {
+  margin-left:3px;
+  margin-top:4px;
+}
+*[id]#slide_04 .list .item:after {
+  content:"Go out for less with 2-for-1 deals on dinner, coffee and dessert.";
+}
+*[id]#slide_04 .list_2 .item:after {
+  content:"Enjoy entertainment discounts on local theater, sports and more.";
+}
+/* SLIDE 5 TEXT*/
+/* 5 title */
+*[id]#slide_05 .title {
+  padding:117px 0 0 0;
+}
+*[id]#slide_05 .title:after {
+  content: "Gift cards for less";
+}
+/* 5 body */
+*[id]#slide_05 .body {
+  padding:11px 0 0 0;
+}
+*[class].pr30 {
+  padding-right:30px !important;
+}
+*[id]#slide_05 .body:after {
+  content: "Save 10% or more on 100+ top gift cards, and never pay full price at your favorite stores and restaurants.";
+}
+/* 5 list */
+*[id]#slide_05 .list {
+  margin: 17px 0px 17px 0;
+}
+*[id]#slide_05 .bull {
+  width:50px;
+  float:left;
+}
+*[id]#slide_05 .list .item {
+  padding:0 30px 0 0;
+}
+*[id]#slide_05 .list img {
+  margin-left:1px;
+}
+*[id]#slide_05 .list_2 .item {
+  padding:0 30px 0 0;
+}
+*[id]#slide_05 .list_2 img {
+  margin-left:1px;
+}
+*[id]#slide_05 .list strong:after {
+  content:"Shopping: ";
+}
+*[id]#slide_05 .list .item:after {
+  content:"Including Gap, Macy's, Kohl's, Nike and Staples.";
+}
+*[id]#slide_05 .list_2 strong:after {
+  content:"Dining: ";
+}
+*[id]#slide_05 .list_2 .item:after {
+  content:"Including Applebee's, Red Robin and Ruth's Chris Steakhouse.";
+}
+
+}
+  /* MOBILE STYLES */
+  @media only screen and (max-width: 636px) and (-webkit-min-device-pixel-ratio: 1), only screen and (max-width: 636px) and (-moz-images-in-menus:0) {
+    *[class].width318 {width:318px !important;}
+    *[class].hauto {height:auto !important;}
+/* SLIDE BACKGROUND IMAGES (size and position to fit mobile) */
+  /* SLIDE 1 */*[id]#slide_01 {
+  background:url('images/slide_1_bg_m.png');
+	background-size: 318px 636px;
+	background-position: 0px 0px;
+}
+/* SLIDE 2 */*[id]#slide_02 {
+  background:url('images/slide_2_bg_m.png');
+	background-size: 318px 636px;
+	background-position: 0px 0px;
+}
+/* SLIDE 3 */*[id]#slide_03 {
+  background:url('images/slide_3_bg_m.png');
+	background-size: 318px 636px;
+	background-position: 0px 0px;
+}
+/* SLIDE 4 */*[id]#slide_04 {
+  background:url('images/slide_4_bg_m.png');
+	background-size: 318px 636px;
+	background-position: 0px 0px;
+}
+/* SLIDE 5 */*[id]#slide_05 {
+  background:url('images/slide_5_bg_m.png');
+	background-size: 318px 636px;
+	background-position: 0px 0px;
+}
+
+  /* NAV BUTTON */
+  /* NAV BUTTON SIZES AND FONT STYLES */    
+  [id^="hs_"] {
+  height:55px;
+}
+/* NAV BUTTON POSITION AND TEXT CONTENT */
+  /* NAV 1 */*[id]#hs_01 {
+    width:63px !important;
+  background-image:url('images/nav_1_m.png') !important;
+  background-size: 63px 71px !important;
+  background-position: 0px 0px;
+	left: 0px !important;
+}
+*[id]#hs_01:hover {
+  background-color:#82ceac;
+  height:71px;
+  }
+/* NAV 2 */*[id]#hs_02 {
+  width:63px !important;
+  background-image:url('images/nav_2_m.png') !important;
+  background-size: 63px 71px !important;
+  background-position: 0px 0px;
+	left: 64px !important;
+}
+*[id]#hs_02:hover {
+  background-color:#f9b295;
+  height:71px;
+  }
+/* NAV 3 */*[id]#hs_03 {
+  width:63px !important;
+  background-image:url('images/nav_3_m.png') !important;
+  background-size: 63px 71px !important;
+  background-position: 0px 0px;
+	left: 128px !important;
+}
+*[id]#hs_03:hover {
+  background-color:#fbd362;
+  height:71px;
+  }
+/* NAV 4 */*[id]#hs_04 {
+  background-image:url('images/nav_4_m.png') !important;
+  background-size: 62px 71px !important;
+  background-position: 0px 0px;
+  width:62px !important;
+	left: 192px !important;
+}
+*[id]#hs_04:hover {
+  background-color:#abe0f9;
+  height:71px;
+  }
+/* NAV 5 */*[id]#hs_05 {
+  width:63px !important;
+  background-image:url('images/nav_5_m.png') !important;
+  background-size: 63px 71px !important;
+  background-position: 0px 0px;
+	left: 255px !important;
+}
+*[id]#hs_05:hover {
+  background-color:#f9b295;
+  height:71px;
+  }
+/* TEXT BOXES  */
+*[class].txt_box {
+	width: 290px;
+	left: 18px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+/* SLIDE 1 TEXT */
+/* 1 title */ 
+*[id]#slide_01 .title {
+  font-size:30px !important;
+  line-height:32px !important;
+  padding:84px 100px 0 0 !important;
+}
+/* 1 body */
+*[id]#slide_01 .body {
+  padding-right:40px !important;
+}
+/* SLIDE 2 TEXT*/
+/* 2 title */
+*[id]#slide_02 .title {
+  padding:84px 0 0 0 !important;
+}
+*[id]#slide_02 .body {
+ padding-right:10px !important;
+}
+*[id]#slide_02 .list {
+  padding:0 2px 0 0 !important;
+}
+*[id]#slide_02 .list_2 {
+  padding:0 13px 0 0 !important;
+}
+/* SLIDE 3 TEXT*/
+/* 3 title */
+*[id]#slide_03 .title {
+  padding:84px 0 0 0 !important;
+}
+*[id]#slide_03 .body {
+  padding-right:25px !important;
+}
+/* SLIDE 4 TEXT*/
+/* 4 title */
+*[id]#slide_04 .title {
+  padding:84px 0 0 0 !important;
+}
+*[id]#slide_04 .body {
+  padding-right:0 !important;
+}
+*[id]#slide_04 .list .item {
+  padding:0 0 0 0 !important;
+}
+*[id]#slide_04 .list {
+  padding:0 28px 0 0 !important;
+}
+*[id]#slide_04 .list_2 .item {
+  padding:0 0 0 0 !important;
+}
+*[id]#slide_04 .list_2 {
+  padding:0 22px 0 0 !important;
+}
+/* SLIDE 5 TEXT*/
+/* 5 title */
+*[id]#slide_05 .title {
+  padding:84px 0 0 0 !important;
+}
+*[class].pr35 {
+  padding-right:35px !important;
+}
+*[id]#slide_05 .list .item {
+  padding:0 0 0 0 !important;
+}
+*[id]#slide_05 .list {
+  padding:0 15px 0 0 !important;
+}
+*[id]#slide_05 .list_2 .item {
+  padding:0 0 0 0 !important;
+}
+*[id]#slide_05 .list_2 {
+  padding:0 15px 0 0 !important;
+}
+/* BUTTON POSITIONING */*[class].cta_01 {
+  left: 0px;
+}
+}
+</style>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center">
+      <!-- shell -->
+      
+      <!-- fallback -->
+      <div align="center" class="h"> 
+        <!--// ADD DESKTOP VERSION HERE WITHOUT MOBILE OPTIMISATION(!) \\--> 
+        
+      </div>
+      <!-- /fallback -->
+
+      <!-- kinetic -->
+      <div id="cont">
+      <!--[if !mso]><!-->
+      <div class="show_d" style="display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0;">
+        <!--// SLIDER \\-->
+        <div id="slide_cont">
+          <div id="hs_01"><img src="images/sp.gif" width="1" height="1" /></div>
+          <div id="hs_02"><img src="images/sp.gif" width="1" height="1" /></div>
+          <div id="hs_03"><img src="images/sp.gif" width="1" height="1" /></div>
+          <div id="hs_04"><img src="images/sp.gif" width="1" height="1" /></div>
+          <div id="hs_05"><img src="images/sp.gif" width="1" height="1" /></div>
+          <div id="cs_01"><a class="m_h" href="$clickthrough(slide_1_d)$"><span></span></a><a class="h m_s" href="$clickthrough(slide_1_m)$"><span></span></a></div>
+          <div id="cs_02"><a class="m_h" href="$clickthrough(slide_2_d)$"><span></span></a><a class="h m_s" href="$clickthrough(slide_2_m)$"><span></span></a></div>
+          <div id="cs_03"><a class="m_h" href="$clickthrough(slide_3_d)$"><span></span></a><a class="h m_s" href="$clickthrough(slide_3_m)$"><span></span></a></div>
+          <div id="cs_04"><a class="m_h" href="$clickthrough(slide_4_d)$"><span></span></a><a class="h m_s" href="$clickthrough(slide_4_m)$"><span></span></a></div>
+          <div id="cs_05"><a class="m_h" href="$clickthrough(slide_5_d)$"><span></span></a><a class="h m_s" href="$clickthrough(slide_5_m)$"><span></span></a></div>
+          <div id="inner_box">
+            <div id="slide_01">
+              <div class="txt_box">
+                  <div class="title"></div>
+                  <div class="body"></div>
+                  <div class="cta_01"><span><img src="images/caret.png" width="10" height="14" border="0" style="display:inline;" alt="&gt;" /></span></div>
+              </div>
+            </div>
+            <div id="slide_02">
+              <div class="txt_box">
+                  <div class="title"></div>
+                  <div class="header"></div>
+                  <div class="body"></div>
+                  <div class="list"><span class="bull"><img src="images/dollar_sign.png" width="22" height="32" border="0" style="display:inline;" alt="$" /></span><span class="item body"></span></div>
+                  <div class="list_2"><span class="bull"><img src="images/price_tag.png" width="29" height="29" border="0" style="display:inline;" alt="Shopping" /></span><span class="item body"></span></div>
+                  <div class="cta_01"><span><img src="images/caret.png" width="10" height="14" border="0" style="display:inline;" alt="&gt;" /></span></div>
+              </div>
+            </div>
+            <div id="slide_03">
+              <div class="txt_box">
+                  <div class="title"></div>
+                  <div class="header"></div>
+                  <div class="body"></div>
+                  <div class="cta_01"><span><img src="images/caret.png" width="10" height="14" border="0" style="display:inline;" alt="&gt;" /></span></div>
+              </div>
+            </div>
+            <div id="slide_04">
+              <div class="txt_box">
+                  <div class="title"></div>
+                  <div class="body"></div>
+                  <div class="list"><span class="bull"><img src="images/food.png" width="36" height="36" border="0" style="display:inline;" alt="Food" /></span><span class="item body"></span></div>
+                  <div class="list_2"><span class="bull"><img src="images/play.png" width="33" height="26" border="0" style="display:inline;" alt="Entertainment" /></span><span class="item body"></span></div>
+                  <div class="cta_01"><span><img src="images/caret.png" width="10" height="14" border="0" style="display:inline;" alt="&gt;" /></span></div>
+              </div>
+            </div>
+            <div id="slide_05">
+              <div class="txt_box">
+                  <div class="title"></div>
+                  <div class="body pr30 pr35"></div>
+                  <div class="list"><span class="bull"><img src="images/shopping.png" width="25" height="32" border="0" style="display:inline;" alt="Shopping" /></span><strong class="body"></strong><span class="item body"></span></div>
+                  <div class="list_2"><span class="bull"><img src="images/dining.png" width="20" height="34" border="0" style="display:inline;" alt="Dining" /></span><strong class="body"></strong><span class="item body"></span></div>
+                  <div class="cta_01"><span><img src="images/caret.png" width="10" height="14" border="0" style="display:inline;" alt="&gt;" /></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// SLIDER \\--> 
+      </div>
+      <!--<![endif]--> 
+      </div>
+      <!-- /kinetic -->
+
+      <!-- /shell -->
+    </td>
+</tr>
+</table>
+</body>
+</html>
